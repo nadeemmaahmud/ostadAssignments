@@ -1,0 +1,66 @@
+{
+    "students": {
+        "S001": {
+            "name": "Nadim Mahmud",
+            "age": 27,
+            "address": "Bagha, Rajshahi",
+            "student_id": "S001",
+            "grades": {
+                "Bangla": "A+"
+            },
+            "courses": [
+                "Bangla"
+            ]
+        },
+        "S002": {
+            "name": "Chadni Akter",
+            "age": 18,
+            "address": "Bagatipara, Natore",
+            "student_id": "S002",
+            "grades": {
+                "Math": "A+"
+            },
+            "courses": [
+                "Math"
+            ]
+        },
+        "S003": {
+            "name": "Kiron",
+            "age": 28,
+            "address": "Chakirapa",
+            "student_id": "S003",
+            "grades": {
+                "English": "A+"
+            },
+            "courses": [
+                "English"
+            ]
+        }
+    },
+    "courses": {
+        "BAN101": {
+            "course_name": "Bangla",
+            "course_code": "BAN101",
+            "instructor": "Hamidul Islam",
+            "students": [
+                "S001"
+            ]
+        },
+        "MAT101": {
+            "course_name": "Math",
+            "course_code": "MAT101",
+            "instructor": "Shahid Hossen",
+            "students": [
+                "S002"
+            ]
+        },
+        "ENG101": {
+            "course_name": "English",
+            "course_code": "ENG101",
+            "instructor": "Juel Haque",
+            "students": [
+                "S003"
+            ]
+        }
+    }
+}
